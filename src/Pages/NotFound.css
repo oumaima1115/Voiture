@@ -1,0 +1,16 @@
+.page-header {
+  position: relative;
+  /* Add padding or height if needed, or ensure the background layer covers it */
+}
+
+.page-header__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Pushes it behind the text content */
+}
